@@ -18,7 +18,7 @@ int main()
 	/*** 44.1 Fundamental Constants ***/
 	fprintf(stdout, "#44.1 Fundamental Constants\n");
 
-	fprintf(stdout, "%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n",
+	fprintf(stdout, "%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n",
 	"GSL_CONST_MKSA_SPEED_OF_LIGHT",
 	GSL_CONST_MKSA_SPEED_OF_LIGHT,
 	// The speed of light in vacuum, c.
@@ -60,7 +60,7 @@ int main()
 	/*** 44.2 Astronomy and Astrophysics ***/
 	fprintf(stdout, "#44.2 Astronomy and Astrophysics\n");
 
-	fprintf(stdout, "%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n",
+	fprintf(stdout, "%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n",
 	"GSL_CONST_MKSA_ASTRONOMICAL_UNIT",
 	GSL_CONST_MKSA_ASTRONOMICAL_UNIT,
 	// The length of 1 astronomical unit (mean earth-sun distance), au.
@@ -84,7 +84,7 @@ int main()
 	/*** 44.4 Measurement of Time ***/
 	fprintf(stdout, "#44.4 Measurement of Time\n");
 
-	fprintf(stdout, "%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n",
+	fprintf(stdout, "%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n",
 	"GSL_CONST_MKSA_MINUTE",
 	GSL_CONST_MKSA_MINUTE,
 	// The number of seconds in 1 minute.
@@ -102,7 +102,7 @@ int main()
 	/*** 44.5 Imperial Units ***/
 	fprintf(stdout, "#44.5 Imperial Units\n");
 
-	fprintf(stdout, "%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n",
+	fprintf(stdout, "%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n",
 	"GSL_CONST_MKSA_INCH",
 	GSL_CONST_MKSA_INCH,
 	// The length of 1 inch.
@@ -123,7 +123,7 @@ int main()
 	/*** 44.6 Speed and Nautical Units ***/
 	fprintf(stdout, "#44.6 Speed and Nautical Units\n");
 
-	fprintf(stdout, "%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n",
+	fprintf(stdout, "%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n",
 	"GSL_CONST_MKSA_KILOMETERS_PER_HOUR",
 	GSL_CONST_MKSA_KILOMETERS_PER_HOUR,
 	// The speed of 1 kilometer per hour.
@@ -144,7 +144,7 @@ int main()
 	/*** 44.7 Printers Units ***/
 	fprintf(stdout, "#44.7 Printers Units\n");
 
-	fprintf(stdout, "%s\t%8.6e\n%s\t%8.6e\n\n",
+	fprintf(stdout, "%s\t%13.12e\n%s\t%13.12e\n\n",
 	"GSL_CONST_MKSA_POINT",
 	GSL_CONST_MKSA_POINT,
 	// The length of 1 printer’s point (1/72 inch).
@@ -156,7 +156,7 @@ int main()
 	/*** 44.8 Volume, Area and Length ***/
 	fprintf(stdout, "#44.8 Volume, Area and Length\n");
 
-	fprintf(stdout, "%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n",
+	fprintf(stdout, "%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n",
 	"GSL_CONST_MKSA_MICRON",
 	GSL_CONST_MKSA_MICRON,
 	// The length of 1 micron.
@@ -189,7 +189,7 @@ int main()
 	/*** 44.9 Mass and Weight ***/
 	fprintf(stdout, "#44.9 Mass and Weight\n");
 
-	fprintf(stdout, "%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n",
+	fprintf(stdout, "%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n",
 	"GSL_CONST_MKSA_POUND_MASS",
 	GSL_CONST_MKSA_POUND_MASS,
 	// The mass of 1 pound.
@@ -228,7 +228,7 @@ int main()
 	/*** 44.9 Mass and Weight ***/
 	fprintf(stdout, "#44.9 Mass and Weight\n");
 
-	fprintf(stdout, "%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n",
+	fprintf(stdout, "%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n",
 	"GSL_CONST_MKSA_POUND_MASS",
 	GSL_CONST_MKSA_POUND_MASS,
 	// The mass of 1 pound.
@@ -267,7 +267,7 @@ int main()
 	/*** 44.11 Pressure ***/
 	fprintf(stdout, "#44.11 Pressure\n");
 
-	fprintf(stdout, "%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n",
+	fprintf(stdout, "%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n",
 	"GSL_CONST_MKSA_BAR",
 	GSL_CONST_MKSA_BAR,
 	// The pressure of 1 bar.
@@ -294,7 +294,7 @@ int main()
 	/*** 44.12 Viscosity ***/
 	fprintf(stdout, "#44.12 Viscosity\n");
 
-	fprintf(stdout, "%s\t%8.6e\n%s\t%8.6e\n",
+	fprintf(stdout, "%s\t%13.12e\n%s\t%13.12e\n",
 	"GSL_CONST_MKSA_POISE",
 	GSL_CONST_MKSA_POISE,
 	// The dynamic viscosity of 1 poise.
@@ -306,7 +306,7 @@ int main()
 	/*** 44.13 Light and Illumination ***/
 	fprintf(stdout, "#44.13 Light and Illumination\n");
 
-	fprintf(stdout, "%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n",
+	fprintf(stdout, "%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n",
 	"GSL_CONST_MKSA_STILB",
 	GSL_CONST_MKSA_STILB,
 	// The luminance of 1 stilb.
@@ -333,7 +333,7 @@ int main()
 	/*** 44.14 Radioactivity ***/
 	fprintf(stdout, "#44.14 Radioactivity\n");
 
-	fprintf(stdout, "%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n",
+	fprintf(stdout, "%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n",
 	"GSL_CONST_MKSA_CURIE",
 	GSL_CONST_MKSA_CURIE,
 	// The activity of 1 curie.
@@ -348,7 +348,7 @@ int main()
 	/*** 44.15 Force and Energy ***/
 	fprintf(stdout, "#44.15 Force and Energy\n");
 
-	fprintf(stdout, "%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n",
+	fprintf(stdout, "%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n",
 	"GSL_CONST_MKSA_NEWTON",
 	GSL_CONST_MKSA_NEWTON,
 	// The SI unit of force, 1 Newton.
@@ -366,7 +366,7 @@ int main()
 	/*** 44.16 Prefixes ***/
 	fprintf(stdout, "#44.16 Prefixes\n");
 
-	fprintf(stdout, "%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n%s\t%8.6e\n",
+	fprintf(stdout, "%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n",
 	"GSL_CONST_NUM_YOTTA",
 	GSL_CONST_NUM_YOTTA,
 	// 10^24
