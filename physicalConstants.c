@@ -81,6 +81,67 @@ int main()
 	// The mass of the Sun. 
 
 	/*________________________________________________________________________*/
+	/*** 44.3 Atomic and Nuclear Physics ***/
+	fprintf(stdout, "#44.3 Atomic and Nuclear Physics\n");
+
+	//fprintf(stdout, "%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12\ne%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n",
+	fprintf(stdout, "%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n%s\t%13.12e\n",
+	"GSL_CONST_MKSA_ELECTRON_CHARGE",
+	GSL_CONST_MKSA_ELECTRON_CHARGE,
+	// The charge of the electron, e.
+	"GSL_CONST_MKSA_ELECTRON_VOLT",
+	GSL_CONST_MKSA_ELECTRON_VOLT,
+	// The energy of 1 electron volt, eV.
+	"GSL_CONST_MKSA_UNIFIED_ATOMIC_MASS",
+	GSL_CONST_MKSA_UNIFIED_ATOMIC_MASS,
+	// The unified atomic mass, amu.
+	"GSL_CONST_MKSA_MASS_ELECTRON",
+	GSL_CONST_MKSA_MASS_ELECTRON,
+	// The mass of the electron, m_e.
+	"GSL_CONST_MKSA_MASS_MUON",
+	GSL_CONST_MKSA_MASS_MUON,
+	// The mass of the muon, m_\mu.
+	"GSL_CONST_MKSA_MASS_PROTON",
+	GSL_CONST_MKSA_MASS_PROTON,
+	// The mass of the proton, m_p.
+	"GSL_CONST_MKSA_MASS_NEUTRON",
+	GSL_CONST_MKSA_MASS_NEUTRON,
+	// The mass of the neutron, m_n.
+	"GSL_CONST_NUM_FINE_STRUCTURE",
+	GSL_CONST_NUM_FINE_STRUCTURE,
+	// The electromagnetic fine structure constant \alpha.
+	"GSL_CONST_MKSA_RYDBERG",
+	GSL_CONST_MKSA_RYDBERG,
+	// The Rydberg constant, Ry, in units of energy. This is related to the Rydberg inverse wavelength R_\infty by Ry = h c R_\infty.
+	"GSL_CONST_MKSA_BOHR_RADIUS",
+	GSL_CONST_MKSA_BOHR_RADIUS,
+	// The Bohr radius, a_0.
+	"GSL_CONST_MKSA_ANGSTROM",
+	GSL_CONST_MKSA_ANGSTROM,
+	// The length of 1 angstrom.
+	"GSL_CONST_MKSA_BARN",
+	GSL_CONST_MKSA_BARN,
+	// The area of 1 barn.
+	"GSL_CONST_MKSA_BOHR_MAGNETON",
+	GSL_CONST_MKSA_BOHR_MAGNETON,
+	// The Bohr Magneton, \mu_B.
+	"GSL_CONST_MKSA_NUCLEAR_MAGNETON",
+	GSL_CONST_MKSA_NUCLEAR_MAGNETON,
+	// The Nuclear Magneton, \mu_N.
+	"GSL_CONST_MKSA_ELECTRON_MAGNETIC_MOMENT",
+	GSL_CONST_MKSA_ELECTRON_MAGNETIC_MOMENT,
+	// The absolute value of the magnetic moment of the electron, \mu_e. The physical magnetic moment of the electron is negative.
+	"GSL_CONST_MKSA_PROTON_MAGNETIC_MOMENT",
+	GSL_CONST_MKSA_PROTON_MAGNETIC_MOMENT,
+	// The magnetic moment of the proton, \mu_p.
+	"GSL_CONST_MKSA_THOMSON_CROSS_SECTION",
+	GSL_CONST_MKSA_THOMSON_CROSS_SECTION,
+	// The Thomson cross section, \sigma_T.
+	"GSL_CONST_MKSA_DEBYE",
+	GSL_CONST_MKSA_DEBYE);
+	// The electric dipole moment of 1 Debye, D. 
+
+	/*________________________________________________________________________*/
 	/*** 44.4 Measurement of Time ***/
 	fprintf(stdout, "#44.4 Measurement of Time\n");
 
