@@ -1,0 +1,7 @@
+#ifndef PHYS_CONST
+#define PHYS_CONST
+
+#define PHYS_CONST_MKS_SPEED_OF_LIGHT	2.997924580000e+08
+
+
+#endif
