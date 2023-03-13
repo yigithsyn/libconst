@@ -1,3 +1,0 @@
-P:/06 Bilgisayar/GitHub/libconst/build/CMakeFiles/INSTALL.dir
-P:/06 Bilgisayar/GitHub/libconst/build/CMakeFiles/ALL_BUILD.dir
-P:/06 Bilgisayar/GitHub/libconst/build/CMakeFiles/ZERO_CHECK.dir
