@@ -21,9 +21,9 @@ extern "C" {
 #endif
 
 
-unsigned short int consts_ver_major();
-unsigned short int consts_ver_minor();
-unsigned short int consts_ver_patch();
+CONSTS_API unsigned short int consts_ver_major();
+CONSTS_API unsigned short int consts_ver_minor();
+CONSTS_API unsigned short int consts_ver_patch();
 
 
 #ifdef __cplusplus
