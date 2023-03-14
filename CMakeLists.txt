@@ -1,6 +1,15 @@
 cmake_minimum_required(VERSION 3.23.0)
 project(consts "C")
 
+# dependency
+if(UNIX OR MSYS OR MINGW)
+  set(CMAKE_PREFIX_PATH "/usr/local")
+elseif(WIN32)
+  set(CMAKE_PREFIX_PATH $ENV{LocalAppData})
+endif()
+message(VERBOSE "[${CMAKE_PROJECT_NAME}] CMake prefix path: ${CMAKE_PREFIX_PATH}")
+# find_package(consts 1.0.1 CONFIG REQUIRED)
+
 # version
 get_filename_component(VERSION_TAG_PATH "version.tag" ABSOLUTE)
 if(EXISTS ${VERSION_TAG_PATH})
@@ -15,22 +24,24 @@ else()
   set(PROJECT_VERSION_PATCH 0)
 endif()
 set(PROJECT_VERSION ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}.${PROJECT_VERSION_PATCH})
-message(STATUS "[CONSTS] Project version: ${PROJECT_VERSION}")
+message(VERBOSE "[${CMAKE_PROJECT_NAME}] Project version: ${PROJECT_VERSION}")
 
 # option
 option(BUILD_SHARED_LIBS "Build using shared libraries" OFF)
 option(ENABLE_TESTS "Build test binaries" ON)
 
-# dependency
-
 #include 
-include_directories(".")
+if(UNIX OR MSYS OR MINGW)
+  include_directories(".")
+elseif(WIN32)
+  include_directories("." $ENV{LocalAppData}/include)
+endif()
 
 # source
 file(GLOB SOURCES "src/*.c")
 file(GLOB INCLUDES "./*.h")
-message(STATUS "[CONSTS] List of source files: ${SOURCES}")
-message(STATUS "[CONSTS] List of include files: ${INCLUDES}")
+message(VERBOSE "[${CMAKE_PROJECT_NAME}] List of source files: ${SOURCES}")
+message(VERBOSE "[${CMAKE_PROJECT_NAME}] List of include files: ${INCLUDES}")
 
 
 # library
